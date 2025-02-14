@@ -47,7 +47,7 @@ function atualizaMediaFinal() {
     const media = document.getElementById("media-final-valor")
     const resultado = document.getElementById("resultado-final")
     
-    media.innerHTML = mediaFinal
+    media.innerHTML = mediaFinal.toFixed(2)
     resultado.innerHTML = mediaFinal >= 7 ? spanAprovado : spanReprovado
 
 }
