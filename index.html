@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculadora De Média</title>
+    <link rel="stylesheet" href="./main.css"><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+        <div class="container">
+            <header></header>
+                <h1>Calculadora de médias</h1>
+            </header>
+            <form id="form">
+                <div class="entradas">
+                    <input type="text" id="materia" required placeholder="Adicionar materia">
+                    <input type="number" id="nota" required placeholder="Nota" min="0" max="10">
+                    <button type="submit">Adicionar +</button>
+                </div>
+            </form>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome da atividade</th>
+                        <th>Nota da atividade</th>
+                        <th>Aprovado?</th>
+                    <tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nome da materia</td>
+                        <td>---</td>
+                        <td>---</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Média final</td>
+                        <td id="media-final-valor">7</td>
+                        <td id="resultado-final"><span class="resultado">Aprovado</span></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    <script rel="stylesheet" src="./script.js"></script>
+</body>
+</html>
